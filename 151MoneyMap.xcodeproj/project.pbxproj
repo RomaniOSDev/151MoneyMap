@@ -3,33 +3,155 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		3069779F2FAE81AC00EF45FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306977952FAE81AC00EF45FD /* Assets.xcassets */; };
+		306977A12FAE81AC00EF45FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306977992FAE81AC00EF45FD /* LaunchScreen.storyboard */; };
+		306977A22FAE81AC00EF45FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3069779B2FAE81AC00EF45FD /* Main.storyboard */; };
+		306977A32FAE81AC00EF45FD /* BudgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977432FAE81AC00EF45FD /* BudgetCard.swift */; };
+		306977A42FAE81AC00EF45FD /* GoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977442FAE81AC00EF45FD /* GoalCard.swift */; };
+		306977A52FAE81AC00EF45FD /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977452FAE81AC00EF45FD /* PieChartView.swift */; };
+		306977A62FAE81AC00EF45FD /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977462FAE81AC00EF45FD /* StatCard.swift */; };
+		306977A72FAE81AC00EF45FD /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977472FAE81AC00EF45FD /* TransactionRow.swift */; };
+		306977A82FAE81AC00EF45FD /* Color+MoneyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977492FAE81AC00EF45FD /* Color+MoneyMap.swift */; };
+		306977A92FAE81AC00EF45FD /* MoneyMapVisualChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069774A2FAE81AC00EF45FD /* MoneyMapVisualChrome.swift */; };
+		306977AA2FAE81AC00EF45FD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069774C2FAE81AC00EF45FD /* Account.swift */; };
+		306977AB2FAE81AC00EF45FD /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069774D2FAE81AC00EF45FD /* AppExternalLink.swift */; };
+		306977AC2FAE81AC00EF45FD /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069774E2FAE81AC00EF45FD /* Budget.swift */; };
+		306977AD2FAE81AC00EF45FD /* FinancialStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069774F2FAE81AC00EF45FD /* FinancialStat.swift */; };
+		306977AE2FAE81AC00EF45FD /* MoneyMapExportBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977502FAE81AC00EF45FD /* MoneyMapExportBundle.swift */; };
+		306977AF2FAE81AC00EF45FD /* NoteRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977512FAE81AC00EF45FD /* NoteRule.swift */; };
+		306977B02FAE81AC00EF45FD /* RecurringTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977522FAE81AC00EF45FD /* RecurringTemplate.swift */; };
+		306977B12FAE81AC00EF45FD /* SavingsGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977532FAE81AC00EF45FD /* SavingsGoal.swift */; };
+		306977B22FAE81AC00EF45FD /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977542FAE81AC00EF45FD /* Transaction.swift */; };
+		306977B32FAE81AC00EF45FD /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977552FAE81AC00EF45FD /* TransactionCategory.swift */; };
+		306977B42FAE81AC00EF45FD /* TransactionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977562FAE81AC00EF45FD /* TransactionFilter.swift */; };
+		306977B52FAE81AC00EF45FD /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977572FAE81AC00EF45FD /* TransactionType.swift */; };
+		306977B62FAE81AC00EF45FD /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977592FAE81AC00EF45FD /* AppRouter.swift */; };
+		306977B72FAE81AC00EF45FD /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069775A2FAE81AC00EF45FD /* PersistenceManager.swift */; };
+		306977B82FAE81AC00EF45FD /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069775B2FAE81AC00EF45FD /* PrivacyWebView.swift */; };
+		306977B92FAE81AC00EF45FD /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069775C2FAE81AC00EF45FD /* SaveService.swift */; };
+		306977BA2FAE81AC00EF45FD /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069775D2FAE81AC00EF45FD /* StartMainView.swift */; };
+		306977BB2FAE81AC00EF45FD /* ActivityShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069775F2FAE81AC00EF45FD /* ActivityShareSheet.swift */; };
+		306977BC2FAE81AC00EF45FD /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977602FAE81AC00EF45FD /* NotificationManager.swift */; };
+		306977BD2FAE81AC00EF45FD /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977622FAE81AC00EF45FD /* Formatting.swift */; };
+		306977BE2FAE81AC00EF45FD /* MoneyMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977642FAE81AC00EF45FD /* MoneyMapViewModel.swift */; };
+		306977BF2FAE81AC00EF45FD /* AccountsManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977662FAE81AC00EF45FD /* AccountsManageView.swift */; };
+		306977C02FAE81AC00EF45FD /* AnalyticsHeroSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977682FAE81AC00EF45FD /* AnalyticsHeroSummary.swift */; };
+		306977C12FAE81AC00EF45FD /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977692FAE81AC00EF45FD /* AnalyticsView.swift */; };
+		306977C22FAE81AC00EF45FD /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069776B2FAE81AC00EF45FD /* AddBudgetView.swift */; };
+		306977C32FAE81AC00EF45FD /* BudgetHeroSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069776C2FAE81AC00EF45FD /* BudgetHeroSummary.swift */; };
+		306977C42FAE81AC00EF45FD /* BudgetMonthHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069776D2FAE81AC00EF45FD /* BudgetMonthHeader.swift */; };
+		306977C52FAE81AC00EF45FD /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069776E2FAE81AC00EF45FD /* BudgetView.swift */; };
+		306977C62FAE81AC00EF45FD /* EditBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069776F2FAE81AC00EF45FD /* EditBudgetView.swift */; };
+		306977C72FAE81AC00EF45FD /* ExportBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977722FAE81AC00EF45FD /* ExportBackupView.swift */; };
+		306977C82FAE81AC00EF45FD /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977742FAE81AC00EF45FD /* AddGoalView.swift */; };
+		306977C92FAE81AC00EF45FD /* ContributeToGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977752FAE81AC00EF45FD /* ContributeToGoalView.swift */; };
+		306977CA2FAE81AC00EF45FD /* EditGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977762FAE81AC00EF45FD /* EditGoalView.swift */; };
+		306977CB2FAE81AC00EF45FD /* GoalsHeroSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977772FAE81AC00EF45FD /* GoalsHeroSummary.swift */; };
+		306977CC2FAE81AC00EF45FD /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977782FAE81AC00EF45FD /* GoalsView.swift */; };
+		306977CD2FAE81AC00EF45FD /* BalanceHeroWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777A2FAE81AC00EF45FD /* BalanceHeroWidget.swift */; };
+		306977CE2FAE81AC00EF45FD /* BudgetsStripWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777B2FAE81AC00EF45FD /* BudgetsStripWidget.swift */; };
+		306977CF2FAE81AC00EF45FD /* CashFlowWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777C2FAE81AC00EF45FD /* CashFlowWidget.swift */; };
+		306977D02FAE81AC00EF45FD /* GoalsStripWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777D2FAE81AC00EF45FD /* GoalsStripWidget.swift */; };
+		306977D12FAE81AC00EF45FD /* HomeWidgetShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777E2FAE81AC00EF45FD /* HomeWidgetShell.swift */; };
+		306977D22FAE81AC00EF45FD /* QuickNavStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069777F2FAE81AC00EF45FD /* QuickNavStrip.swift */; };
+		306977D32FAE81AC00EF45FD /* RecentActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977802FAE81AC00EF45FD /* RecentActivityWidget.swift */; };
+		306977D42FAE81AC00EF45FD /* SpendingPieWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977812FAE81AC00EF45FD /* SpendingPieWidget.swift */; };
+		306977D52FAE81AC00EF45FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977832FAE81AC00EF45FD /* HomeView.swift */; };
+		306977D62FAE81AC00EF45FD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977852FAE81AC00EF45FD /* OnboardingView.swift */; };
+		306977D72FAE81AC00EF45FD /* RecurringTemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977872FAE81AC00EF45FD /* RecurringTemplatesView.swift */; };
+		306977D82FAE81AC00EF45FD /* NoteRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977892FAE81AC00EF45FD /* NoteRulesView.swift */; };
+		306977D92FAE81AC00EF45FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069778A2FAE81AC00EF45FD /* SettingsView.swift */; };
+		306977DA2FAE81AC00EF45FD /* ActivityHeroSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069778C2FAE81AC00EF45FD /* ActivityHeroSummary.swift */; };
+		306977DB2FAE81AC00EF45FD /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069778D2FAE81AC00EF45FD /* AddTransactionView.swift */; };
+		306977DC2FAE81AC00EF45FD /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069778E2FAE81AC00EF45FD /* TransactionDetailView.swift */; };
+		306977DD2FAE81AC00EF45FD /* TransactionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069778F2FAE81AC00EF45FD /* TransactionEditorView.swift */; };
+		306977DE2FAE81AC00EF45FD /* TransactionFiltersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977902FAE81AC00EF45FD /* TransactionFiltersSheet.swift */; };
+		306977DF2FAE81AC00EF45FD /* TransactionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977912FAE81AC00EF45FD /* TransactionsListView.swift */; };
+		306977E02FAE81AC00EF45FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977942FAE81AC00EF45FD /* AppDelegate.swift */; };
+		306977E12FAE81AC00EF45FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306977962FAE81AC00EF45FD /* ContentView.swift */; };
+		306977E22FAE81AC00EF45FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069779C2FAE81AC00EF45FD /* SceneDelegate.swift */; };
+		306977E32FAE81AC00EF45FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069779D2FAE81AC00EF45FD /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302044312FAA74F600A1DCA4 /* 151MoneyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 151MoneyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306977432FAE81AC00EF45FD /* BudgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCard.swift; sourceTree = "<group>"; };
+		306977442FAE81AC00EF45FD /* GoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCard.swift; sourceTree = "<group>"; };
+		306977452FAE81AC00EF45FD /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		306977462FAE81AC00EF45FD /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		306977472FAE81AC00EF45FD /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		306977492FAE81AC00EF45FD /* Color+MoneyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+MoneyMap.swift"; sourceTree = "<group>"; };
+		3069774A2FAE81AC00EF45FD /* MoneyMapVisualChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMapVisualChrome.swift; sourceTree = "<group>"; };
+		3069774C2FAE81AC00EF45FD /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3069774D2FAE81AC00EF45FD /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		3069774E2FAE81AC00EF45FD /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		3069774F2FAE81AC00EF45FD /* FinancialStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialStat.swift; sourceTree = "<group>"; };
+		306977502FAE81AC00EF45FD /* MoneyMapExportBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMapExportBundle.swift; sourceTree = "<group>"; };
+		306977512FAE81AC00EF45FD /* NoteRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRule.swift; sourceTree = "<group>"; };
+		306977522FAE81AC00EF45FD /* RecurringTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringTemplate.swift; sourceTree = "<group>"; };
+		306977532FAE81AC00EF45FD /* SavingsGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoal.swift; sourceTree = "<group>"; };
+		306977542FAE81AC00EF45FD /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		306977552FAE81AC00EF45FD /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		306977562FAE81AC00EF45FD /* TransactionFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFilter.swift; sourceTree = "<group>"; };
+		306977572FAE81AC00EF45FD /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		306977592FAE81AC00EF45FD /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		3069775A2FAE81AC00EF45FD /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		3069775B2FAE81AC00EF45FD /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		3069775C2FAE81AC00EF45FD /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		3069775D2FAE81AC00EF45FD /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
+		3069775F2FAE81AC00EF45FD /* ActivityShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityShareSheet.swift; sourceTree = "<group>"; };
+		306977602FAE81AC00EF45FD /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		306977622FAE81AC00EF45FD /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		306977642FAE81AC00EF45FD /* MoneyMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMapViewModel.swift; sourceTree = "<group>"; };
+		306977662FAE81AC00EF45FD /* AccountsManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsManageView.swift; sourceTree = "<group>"; };
+		306977682FAE81AC00EF45FD /* AnalyticsHeroSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsHeroSummary.swift; sourceTree = "<group>"; };
+		306977692FAE81AC00EF45FD /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		3069776B2FAE81AC00EF45FD /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
+		3069776C2FAE81AC00EF45FD /* BudgetHeroSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetHeroSummary.swift; sourceTree = "<group>"; };
+		3069776D2FAE81AC00EF45FD /* BudgetMonthHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetMonthHeader.swift; sourceTree = "<group>"; };
+		3069776E2FAE81AC00EF45FD /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		3069776F2FAE81AC00EF45FD /* EditBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBudgetView.swift; sourceTree = "<group>"; };
+		306977722FAE81AC00EF45FD /* ExportBackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportBackupView.swift; sourceTree = "<group>"; };
+		306977742FAE81AC00EF45FD /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		306977752FAE81AC00EF45FD /* ContributeToGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributeToGoalView.swift; sourceTree = "<group>"; };
+		306977762FAE81AC00EF45FD /* EditGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalView.swift; sourceTree = "<group>"; };
+		306977772FAE81AC00EF45FD /* GoalsHeroSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsHeroSummary.swift; sourceTree = "<group>"; };
+		306977782FAE81AC00EF45FD /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		3069777A2FAE81AC00EF45FD /* BalanceHeroWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceHeroWidget.swift; sourceTree = "<group>"; };
+		3069777B2FAE81AC00EF45FD /* BudgetsStripWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsStripWidget.swift; sourceTree = "<group>"; };
+		3069777C2FAE81AC00EF45FD /* CashFlowWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowWidget.swift; sourceTree = "<group>"; };
+		3069777D2FAE81AC00EF45FD /* GoalsStripWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsStripWidget.swift; sourceTree = "<group>"; };
+		3069777E2FAE81AC00EF45FD /* HomeWidgetShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetShell.swift; sourceTree = "<group>"; };
+		3069777F2FAE81AC00EF45FD /* QuickNavStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNavStrip.swift; sourceTree = "<group>"; };
+		306977802FAE81AC00EF45FD /* RecentActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentActivityWidget.swift; sourceTree = "<group>"; };
+		306977812FAE81AC00EF45FD /* SpendingPieWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingPieWidget.swift; sourceTree = "<group>"; };
+		306977832FAE81AC00EF45FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		306977852FAE81AC00EF45FD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		306977872FAE81AC00EF45FD /* RecurringTemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringTemplatesView.swift; sourceTree = "<group>"; };
+		306977892FAE81AC00EF45FD /* NoteRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRulesView.swift; sourceTree = "<group>"; };
+		3069778A2FAE81AC00EF45FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3069778C2FAE81AC00EF45FD /* ActivityHeroSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHeroSummary.swift; sourceTree = "<group>"; };
+		3069778D2FAE81AC00EF45FD /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		3069778E2FAE81AC00EF45FD /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		3069778F2FAE81AC00EF45FD /* TransactionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionEditorView.swift; sourceTree = "<group>"; };
+		306977902FAE81AC00EF45FD /* TransactionFiltersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFiltersSheet.swift; sourceTree = "<group>"; };
+		306977912FAE81AC00EF45FD /* TransactionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListView.swift; sourceTree = "<group>"; };
+		306977942FAE81AC00EF45FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306977952FAE81AC00EF45FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306977962FAE81AC00EF45FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306977972FAE81AC00EF45FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306977982FAE81AC00EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3069779A2FAE81AC00EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3069779C2FAE81AC00EF45FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3069779D2FAE81AC00EF45FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849041B34F14414CDE5B7DA6 /* Pods_151MoneyMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_151MoneyMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8564872EAE04DFCA2D3F6915 /* Pods-151MoneyMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-151MoneyMap.debug.xcconfig"; path = "Target Support Files/Pods-151MoneyMap/Pods-151MoneyMap.debug.xcconfig"; sourceTree = "<group>"; };
+		922EF345A7A2DA836B812725 /* Pods-151MoneyMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-151MoneyMap.release.xcconfig"; path = "Target Support Files/Pods-151MoneyMap/Pods-151MoneyMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		302044432FAA74F700A1DCA4 /* Exceptions for "151MoneyMap" folder in "151MoneyMap" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 302044302FAA74F600A1DCA4 /* 151MoneyMap */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		302044332FAA74F600A1DCA4 /* 151MoneyMap */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				302044432FAA74F700A1DCA4 /* Exceptions for "151MoneyMap" folder in "151MoneyMap" target */,
-			);
-			path = 151MoneyMap;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3020442E2FAA74F600A1DCA4 /* Frameworks */ = {
@@ -42,11 +164,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081D31C2C53D94B2FC69C599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849041B34F14414CDE5B7DA6 /* Pods_151MoneyMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		302044282FAA74F600A1DCA4 = {
 			isa = PBXGroup;
 			children = (
-				302044332FAA74F600A1DCA4 /* 151MoneyMap */,
+				3069779E2FAE81AC00EF45FD /* 151MoneyMap */,
 				302044322FAA74F600A1DCA4 /* Products */,
+				A2C816C450597AF8B3C150D4 /* Pods */,
+				081D31C2C53D94B2FC69C599 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +190,251 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		306977482FAE81AC00EF45FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				306977432FAE81AC00EF45FD /* BudgetCard.swift */,
+				306977442FAE81AC00EF45FD /* GoalCard.swift */,
+				306977452FAE81AC00EF45FD /* PieChartView.swift */,
+				306977462FAE81AC00EF45FD /* StatCard.swift */,
+				306977472FAE81AC00EF45FD /* TransactionRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3069774B2FAE81AC00EF45FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				306977492FAE81AC00EF45FD /* Color+MoneyMap.swift */,
+				3069774A2FAE81AC00EF45FD /* MoneyMapVisualChrome.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		306977582FAE81AC00EF45FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3069774C2FAE81AC00EF45FD /* Account.swift */,
+				3069774D2FAE81AC00EF45FD /* AppExternalLink.swift */,
+				3069774E2FAE81AC00EF45FD /* Budget.swift */,
+				3069774F2FAE81AC00EF45FD /* FinancialStat.swift */,
+				306977502FAE81AC00EF45FD /* MoneyMapExportBundle.swift */,
+				306977512FAE81AC00EF45FD /* NoteRule.swift */,
+				306977522FAE81AC00EF45FD /* RecurringTemplate.swift */,
+				306977532FAE81AC00EF45FD /* SavingsGoal.swift */,
+				306977542FAE81AC00EF45FD /* Transaction.swift */,
+				306977552FAE81AC00EF45FD /* TransactionCategory.swift */,
+				306977562FAE81AC00EF45FD /* TransactionFilter.swift */,
+				306977572FAE81AC00EF45FD /* TransactionType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3069775E2FAE81AC00EF45FD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				306977592FAE81AC00EF45FD /* AppRouter.swift */,
+				3069775A2FAE81AC00EF45FD /* PersistenceManager.swift */,
+				3069775B2FAE81AC00EF45FD /* PrivacyWebView.swift */,
+				3069775C2FAE81AC00EF45FD /* SaveService.swift */,
+				3069775D2FAE81AC00EF45FD /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		306977612FAE81AC00EF45FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3069775F2FAE81AC00EF45FD /* ActivityShareSheet.swift */,
+				306977602FAE81AC00EF45FD /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		306977632FAE81AC00EF45FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				306977622FAE81AC00EF45FD /* Formatting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		306977652FAE81AC00EF45FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				306977642FAE81AC00EF45FD /* MoneyMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		306977672FAE81AC00EF45FD /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				306977662FAE81AC00EF45FD /* AccountsManageView.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		3069776A2FAE81AC00EF45FD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				306977682FAE81AC00EF45FD /* AnalyticsHeroSummary.swift */,
+				306977692FAE81AC00EF45FD /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		306977702FAE81AC00EF45FD /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				3069776B2FAE81AC00EF45FD /* AddBudgetView.swift */,
+				3069776C2FAE81AC00EF45FD /* BudgetHeroSummary.swift */,
+				3069776D2FAE81AC00EF45FD /* BudgetMonthHeader.swift */,
+				3069776E2FAE81AC00EF45FD /* BudgetView.swift */,
+				3069776F2FAE81AC00EF45FD /* EditBudgetView.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		306977712FAE81AC00EF45FD /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		306977732FAE81AC00EF45FD /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				306977722FAE81AC00EF45FD /* ExportBackupView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		306977792FAE81AC00EF45FD /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				306977742FAE81AC00EF45FD /* AddGoalView.swift */,
+				306977752FAE81AC00EF45FD /* ContributeToGoalView.swift */,
+				306977762FAE81AC00EF45FD /* EditGoalView.swift */,
+				306977772FAE81AC00EF45FD /* GoalsHeroSummary.swift */,
+				306977782FAE81AC00EF45FD /* GoalsView.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		306977822FAE81AC00EF45FD /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3069777A2FAE81AC00EF45FD /* BalanceHeroWidget.swift */,
+				3069777B2FAE81AC00EF45FD /* BudgetsStripWidget.swift */,
+				3069777C2FAE81AC00EF45FD /* CashFlowWidget.swift */,
+				3069777D2FAE81AC00EF45FD /* GoalsStripWidget.swift */,
+				3069777E2FAE81AC00EF45FD /* HomeWidgetShell.swift */,
+				3069777F2FAE81AC00EF45FD /* QuickNavStrip.swift */,
+				306977802FAE81AC00EF45FD /* RecentActivityWidget.swift */,
+				306977812FAE81AC00EF45FD /* SpendingPieWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		306977842FAE81AC00EF45FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				306977822FAE81AC00EF45FD /* Widgets */,
+				306977832FAE81AC00EF45FD /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		306977862FAE81AC00EF45FD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				306977852FAE81AC00EF45FD /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		306977882FAE81AC00EF45FD /* Recurring */ = {
+			isa = PBXGroup;
+			children = (
+				306977872FAE81AC00EF45FD /* RecurringTemplatesView.swift */,
+			);
+			path = Recurring;
+			sourceTree = "<group>";
+		};
+		3069778B2FAE81AC00EF45FD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				306977892FAE81AC00EF45FD /* NoteRulesView.swift */,
+				3069778A2FAE81AC00EF45FD /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		306977922FAE81AC00EF45FD /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				3069778C2FAE81AC00EF45FD /* ActivityHeroSummary.swift */,
+				3069778D2FAE81AC00EF45FD /* AddTransactionView.swift */,
+				3069778E2FAE81AC00EF45FD /* TransactionDetailView.swift */,
+				3069778F2FAE81AC00EF45FD /* TransactionEditorView.swift */,
+				306977902FAE81AC00EF45FD /* TransactionFiltersSheet.swift */,
+				306977912FAE81AC00EF45FD /* TransactionsListView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		306977932FAE81AC00EF45FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				306977672FAE81AC00EF45FD /* Accounts */,
+				3069776A2FAE81AC00EF45FD /* Analytics */,
+				306977702FAE81AC00EF45FD /* Budget */,
+				306977712FAE81AC00EF45FD /* Dashboard */,
+				306977732FAE81AC00EF45FD /* Export */,
+				306977792FAE81AC00EF45FD /* Goals */,
+				306977842FAE81AC00EF45FD /* Home */,
+				306977862FAE81AC00EF45FD /* Onboarding */,
+				306977882FAE81AC00EF45FD /* Recurring */,
+				3069778B2FAE81AC00EF45FD /* Settings */,
+				306977922FAE81AC00EF45FD /* Transactions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3069779E2FAE81AC00EF45FD /* 151MoneyMap */ = {
+			isa = PBXGroup;
+			children = (
+				306977482FAE81AC00EF45FD /* Components */,
+				3069774B2FAE81AC00EF45FD /* Extensions */,
+				306977582FAE81AC00EF45FD /* Models */,
+				3069775E2FAE81AC00EF45FD /* Router */,
+				306977612FAE81AC00EF45FD /* Services */,
+				306977632FAE81AC00EF45FD /* Utilities */,
+				306977652FAE81AC00EF45FD /* ViewModels */,
+				306977932FAE81AC00EF45FD /* Views */,
+				306977942FAE81AC00EF45FD /* AppDelegate.swift */,
+				306977952FAE81AC00EF45FD /* Assets.xcassets */,
+				306977962FAE81AC00EF45FD /* ContentView.swift */,
+				306977972FAE81AC00EF45FD /* Info.plist */,
+				306977992FAE81AC00EF45FD /* LaunchScreen.storyboard */,
+				3069779B2FAE81AC00EF45FD /* Main.storyboard */,
+				3069779C2FAE81AC00EF45FD /* SceneDelegate.swift */,
+				3069779D2FAE81AC00EF45FD /* ViewController.swift */,
+			);
+			path = 151MoneyMap;
+			sourceTree = "<group>";
+		};
+		A2C816C450597AF8B3C150D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8564872EAE04DFCA2D3F6915 /* Pods-151MoneyMap.debug.xcconfig */,
+				922EF345A7A2DA836B812725 /* Pods-151MoneyMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +442,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302044442FAA74F700A1DCA4 /* Build configuration list for PBXNativeTarget "151MoneyMap" */;
 			buildPhases = (
+				0630A8E75A55CE4DE1A1B5A2 /* [CP] Check Pods Manifest.lock */,
 				3020442D2FAA74F600A1DCA4 /* Sources */,
 				3020442E2FAA74F600A1DCA4 /* Frameworks */,
 				3020442F2FAA74F600A1DCA4 /* Resources */,
@@ -73,12 +451,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				302044332FAA74F600A1DCA4 /* 151MoneyMap */,
-			);
 			name = 151MoneyMap;
-			packageProductDependencies = (
-			);
 			productName = 151MoneyMap;
 			productReference = 302044312FAA74F600A1DCA4 /* 151MoneyMap.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +472,7 @@
 				};
 			};
 			buildConfigurationList = 3020442C2FAA74F600A1DCA4 /* Build configuration list for PBXProject "151MoneyMap" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +480,6 @@
 				Base,
 			);
 			mainGroup = 302044282FAA74F600A1DCA4;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 302044322FAA74F600A1DCA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +494,137 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3069779F2FAE81AC00EF45FD /* Assets.xcassets in Resources */,
+				306977A12FAE81AC00EF45FD /* LaunchScreen.storyboard in Resources */,
+				306977A22FAE81AC00EF45FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0630A8E75A55CE4DE1A1B5A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-151MoneyMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3020442D2FAA74F600A1DCA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306977A32FAE81AC00EF45FD /* BudgetCard.swift in Sources */,
+				306977A42FAE81AC00EF45FD /* GoalCard.swift in Sources */,
+				306977A52FAE81AC00EF45FD /* PieChartView.swift in Sources */,
+				306977A62FAE81AC00EF45FD /* StatCard.swift in Sources */,
+				306977A72FAE81AC00EF45FD /* TransactionRow.swift in Sources */,
+				306977A82FAE81AC00EF45FD /* Color+MoneyMap.swift in Sources */,
+				306977A92FAE81AC00EF45FD /* MoneyMapVisualChrome.swift in Sources */,
+				306977AA2FAE81AC00EF45FD /* Account.swift in Sources */,
+				306977AB2FAE81AC00EF45FD /* AppExternalLink.swift in Sources */,
+				306977AC2FAE81AC00EF45FD /* Budget.swift in Sources */,
+				306977AD2FAE81AC00EF45FD /* FinancialStat.swift in Sources */,
+				306977AE2FAE81AC00EF45FD /* MoneyMapExportBundle.swift in Sources */,
+				306977AF2FAE81AC00EF45FD /* NoteRule.swift in Sources */,
+				306977B02FAE81AC00EF45FD /* RecurringTemplate.swift in Sources */,
+				306977B12FAE81AC00EF45FD /* SavingsGoal.swift in Sources */,
+				306977B22FAE81AC00EF45FD /* Transaction.swift in Sources */,
+				306977B32FAE81AC00EF45FD /* TransactionCategory.swift in Sources */,
+				306977B42FAE81AC00EF45FD /* TransactionFilter.swift in Sources */,
+				306977B52FAE81AC00EF45FD /* TransactionType.swift in Sources */,
+				306977B62FAE81AC00EF45FD /* AppRouter.swift in Sources */,
+				306977B72FAE81AC00EF45FD /* PersistenceManager.swift in Sources */,
+				306977B82FAE81AC00EF45FD /* PrivacyWebView.swift in Sources */,
+				306977B92FAE81AC00EF45FD /* SaveService.swift in Sources */,
+				306977BA2FAE81AC00EF45FD /* StartMainView.swift in Sources */,
+				306977BB2FAE81AC00EF45FD /* ActivityShareSheet.swift in Sources */,
+				306977BC2FAE81AC00EF45FD /* NotificationManager.swift in Sources */,
+				306977BD2FAE81AC00EF45FD /* Formatting.swift in Sources */,
+				306977BE2FAE81AC00EF45FD /* MoneyMapViewModel.swift in Sources */,
+				306977BF2FAE81AC00EF45FD /* AccountsManageView.swift in Sources */,
+				306977C02FAE81AC00EF45FD /* AnalyticsHeroSummary.swift in Sources */,
+				306977C12FAE81AC00EF45FD /* AnalyticsView.swift in Sources */,
+				306977C22FAE81AC00EF45FD /* AddBudgetView.swift in Sources */,
+				306977C32FAE81AC00EF45FD /* BudgetHeroSummary.swift in Sources */,
+				306977C42FAE81AC00EF45FD /* BudgetMonthHeader.swift in Sources */,
+				306977C52FAE81AC00EF45FD /* BudgetView.swift in Sources */,
+				306977C62FAE81AC00EF45FD /* EditBudgetView.swift in Sources */,
+				306977C72FAE81AC00EF45FD /* ExportBackupView.swift in Sources */,
+				306977C82FAE81AC00EF45FD /* AddGoalView.swift in Sources */,
+				306977C92FAE81AC00EF45FD /* ContributeToGoalView.swift in Sources */,
+				306977CA2FAE81AC00EF45FD /* EditGoalView.swift in Sources */,
+				306977CB2FAE81AC00EF45FD /* GoalsHeroSummary.swift in Sources */,
+				306977CC2FAE81AC00EF45FD /* GoalsView.swift in Sources */,
+				306977CD2FAE81AC00EF45FD /* BalanceHeroWidget.swift in Sources */,
+				306977CE2FAE81AC00EF45FD /* BudgetsStripWidget.swift in Sources */,
+				306977CF2FAE81AC00EF45FD /* CashFlowWidget.swift in Sources */,
+				306977D02FAE81AC00EF45FD /* GoalsStripWidget.swift in Sources */,
+				306977D12FAE81AC00EF45FD /* HomeWidgetShell.swift in Sources */,
+				306977D22FAE81AC00EF45FD /* QuickNavStrip.swift in Sources */,
+				306977D32FAE81AC00EF45FD /* RecentActivityWidget.swift in Sources */,
+				306977D42FAE81AC00EF45FD /* SpendingPieWidget.swift in Sources */,
+				306977D52FAE81AC00EF45FD /* HomeView.swift in Sources */,
+				306977D62FAE81AC00EF45FD /* OnboardingView.swift in Sources */,
+				306977D72FAE81AC00EF45FD /* RecurringTemplatesView.swift in Sources */,
+				306977D82FAE81AC00EF45FD /* NoteRulesView.swift in Sources */,
+				306977D92FAE81AC00EF45FD /* SettingsView.swift in Sources */,
+				306977DA2FAE81AC00EF45FD /* ActivityHeroSummary.swift in Sources */,
+				306977DB2FAE81AC00EF45FD /* AddTransactionView.swift in Sources */,
+				306977DC2FAE81AC00EF45FD /* TransactionDetailView.swift in Sources */,
+				306977DD2FAE81AC00EF45FD /* TransactionEditorView.swift in Sources */,
+				306977DE2FAE81AC00EF45FD /* TransactionFiltersSheet.swift in Sources */,
+				306977DF2FAE81AC00EF45FD /* TransactionsListView.swift in Sources */,
+				306977E02FAE81AC00EF45FD /* AppDelegate.swift in Sources */,
+				306977E12FAE81AC00EF45FD /* ContentView.swift in Sources */,
+				306977E22FAE81AC00EF45FD /* SceneDelegate.swift in Sources */,
+				306977E32FAE81AC00EF45FD /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		306977992FAE81AC00EF45FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306977982FAE81AC00EF45FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3069779B2FAE81AC00EF45FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3069779A2FAE81AC00EF45FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		302044452FAA74F700A1DCA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8564872EAE04DFCA2D3F6915 /* Pods-151MoneyMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +632,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 151MoneyMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spend Less = Save More";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-51MoneyMap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.sp3ndl3sss5v3m0r3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		302044462FAA74F700A1DCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922EF345A7A2DA836B812725 /* Pods-151MoneyMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +670,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 151MoneyMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Spend Less = Save More";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-51MoneyMap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.sp3ndl3sss5v3m0r3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
